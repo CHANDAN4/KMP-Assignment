@@ -1,6 +1,5 @@
 package com.example.kmptestapp.data.network
 
-import com.example.kmptestapp.ui.dashboard.home.models.ResponseSurveyorAssessment
 import com.example.kmptestapp.ui.dashboard.home.models.products.ResponseProducts
 import com.example.kmptestapp.ui.dashboard.home.models.request.Request
 import io.ktor.client.HttpClient

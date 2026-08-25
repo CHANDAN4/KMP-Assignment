@@ -39,7 +39,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.kmptestapp.data.network.ApiState
-import com.example.kmptestapp.ui.dashboard.home.models.ResponseSurveyorAssessment
 import com.example.kmptestapp.ui.dashboard.home.models.products.ResponseProducts
 import com.example.kmptestapp.ui.dashboard.home.viewModels.HomeViewModel
 import com.example.kmptestapp.ui.dashboard.home.views.AssessmentItem

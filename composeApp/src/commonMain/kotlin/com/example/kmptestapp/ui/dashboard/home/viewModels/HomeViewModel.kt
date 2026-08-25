@@ -3,7 +3,6 @@ package com.example.kmptestapp.ui.dashboard.home.viewModels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.kmptestapp.data.network.ApiState
-import com.example.kmptestapp.ui.dashboard.home.models.ResponseSurveyorAssessment
 import com.example.kmptestapp.ui.dashboard.home.models.products.ResponseProducts
 import com.example.kmptestapp.ui.dashboard.home.models.request.Request
 import com.example.kmptestapp.ui.dashboard.home.repository.ApiRepository

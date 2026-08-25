@@ -52,7 +52,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.kmptestapp.data.network.ApiState
-import com.example.kmptestapp.ui.dashboard.home.models.Content
 import com.example.kmptestapp.ui.dashboard.home.viewModels.HomeViewModel
 import com.example.kmptestapp.utils.Type
 import com.example.kmptestapp.utils.getType
