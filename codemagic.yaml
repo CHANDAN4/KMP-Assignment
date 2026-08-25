@@ -19,11 +19,11 @@ workflows:
 
       - name: Build KMP iOS Simulator Framework
         script: |
-          ./gradlew :shared:linkDebugFrameworkIosSimulatorArm64
+          ./gradlew :ComposeApp:linkDebugFrameworkIosSimulatorArm64
 
-      - name: Find shared framework
+      - name: Find ComposeApp framework
         script: |
-          find . -name "shared.framework" -print
+          find . -name "ComposeApp.framework" -print
 
       - name: Build iOS app for simulator
         script: |
@@ -38,8 +38,8 @@ workflows:
 
       - name: Check generated framework
         script: |
-          echo "Searching for shared.framework..."
-          find . -name "shared.framework" -print
+          echo "Searching for ComposeApp.framework..."
+          find . -name "ComposeApp.framework" -print
 
       - name: Package .app for Appetize
         script: |
