@@ -31,7 +31,7 @@ import org.koin.compose.koinInject
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Dashboard() {
+fun DashboardScreen() {
 
 
     val homeViewModel: HomeViewModel = koinInject()
