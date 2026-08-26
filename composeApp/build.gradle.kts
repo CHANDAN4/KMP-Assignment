@@ -63,19 +63,21 @@ kotlin {
             //To Navigation
             implementation("org.jetbrains.androidx.navigation:navigation-compose:2.9.0")
 
-            //Koin DI
-            implementation("io.insert-koin:koin-core:4.0.0")
-            implementation("io.insert-koin:koin-compose:4.0.0")
-            implementation("io.insert-koin:koin-compose-viewmodel:4.0.0")
-            //Ktor to api implementation
+            // Koin
+            implementation("io.insert-koin:koin-core:4.1.0")
+            implementation("io.insert-koin:koin-compose:4.1.0")
+            implementation("io.insert-koin:koin-compose-viewmodel:4.1.0")
+
+            // Ktor
             implementation("io.ktor:ktor-client-core:3.2.2")
             implementation("io.ktor:ktor-client-content-negotiation:3.2.2")
             implementation("io.ktor:ktor-serialization-kotlinx-json:3.2.2")
             implementation("io.ktor:ktor-client-logging:3.2.2")
-            //Coroutine
+
+            // Coroutines
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
 
-            //ViewModel
+            // ViewModel
             implementation("org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
 
             implementation(compose.materialIconsExtended)

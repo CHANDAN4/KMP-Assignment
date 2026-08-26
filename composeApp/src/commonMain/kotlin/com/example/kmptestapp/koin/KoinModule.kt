@@ -17,8 +17,8 @@ val appModule = module {
 
     single { ApiRepository(get()) }
 
-    viewModel { HomeViewModel(get()) }
+    factory { HomeViewModel(get()) }
 
-    viewModel { ProfileViewModel(get()) }
+    factory { ProfileViewModel(get()) }
 
 }

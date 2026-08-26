@@ -22,21 +22,19 @@ import androidx.navigation.compose.rememberNavController
 import assignment.composeapp.generated.resources.Res
 import assignment.composeapp.generated.resources.home
 import assignment.composeapp.generated.resources.search
-import assignment.composeapp.generated.resources.settings
-import assignment.composeapp.generated.resources.user
 import com.example.kmptestapp.ui.dashboard.home.viewModels.HomeViewModel
 import com.example.kmptestapp.ui.dashboard.navigation.DashBoardNavGraph
 import com.example.kmptestapp.ui.dashboard.navigation.Dashboard
-
 import org.jetbrains.compose.resources.painterResource
-import org.koin.compose.viewmodel.koinViewModel
+import org.koin.compose.koinInject
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Dashboard() {
 
-    val homeViewModel: HomeViewModel = koinViewModel()
+
+    val homeViewModel: HomeViewModel = koinInject()
     val navController = rememberNavController()
     var selectedTab by remember {
         mutableStateOf(0)

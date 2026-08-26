@@ -43,13 +43,7 @@ fun SplashComposeView(homeViewModel: HomeViewModel, navController: NavController
             }
             launchSingleTop = true
         }
-
-        /*
-        setStatusBar(
-            darkIcons = false
-        )
-        */
-
+        
     }
 
 
