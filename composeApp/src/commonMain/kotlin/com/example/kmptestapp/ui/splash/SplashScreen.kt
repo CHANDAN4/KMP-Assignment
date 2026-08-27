@@ -45,9 +45,9 @@ fun SplashComposeView(navController: NavController) {
 
     Column(modifier = Modifier.fillMaxSize().background(Color(0xFF6650A3))) {
 
-        Spacer(modifier = Modifier.height(100.dp))
+        //Spacer(modifier = Modifier.height(100.dp))
         Column(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
